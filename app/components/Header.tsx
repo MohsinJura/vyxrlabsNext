@@ -82,11 +82,11 @@ export default function Header() {
 
   return (
     <nav className="flex justify-end md:justify-center">
-      <div className="fixed top-3 z-[1000] max-w-4xl">
+      <div className="fixed top-3 z-1000 max-w-4xl">
         {/* ---------- Desktop Navbar ---------- */}
         {/* Note: Ensure 'cblue' is defined in your Tailwind config */}
-        <div className="hidden md:flex p-[2px] opacity-95 bg-gradient-to-br from-green-200 via-slate-800 to-pink-300 rounded-xl">
-          <div className="flex items-center justify-between gap-8 px-4 py-2 font-inter bg-gradient-to-r from-slate-700 via-black to-blue-950 rounded-xl">
+        <div className="hidden md:flex p-[2px] opacity-95 bg-linear-to-br from-green-200 via-slate-800 to-pink-300 rounded-xl animate-flow">
+          <div className="flex items-center justify-between gap-8 px-4 py-2 font-inter bg-linear-to-r from-slate-700 via-black to-blue-950 rounded-xl">
             {navItems.map((item) => (
               <div
                 key={item.path}

@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section
       className="relative w-full min-h-screen bg-black bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/heroBG.jpg')" }}
+      style={{ backgroundImage: "url('/heroBG.jpg')" }}
     >
       <div className="max-w-screen mx-auto">
         {/* Floating icons */}
@@ -31,7 +31,7 @@ export default function Hero() {
             {/* ✅ Logo */}
             <div className="mb-4">
               <Image
-                src="https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/Logo.png"
+                src="/Logo.png"
                 alt="VyxrLabs Logo"
                 width={300}
                 height={100}

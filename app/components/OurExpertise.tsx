@@ -11,9 +11,9 @@ const cardData = [
     subtitle: "CRO",
     description:
       "We transform visitors into loyal customers. Using data-driven optimization techniques, we create seamless shopping experiences that drive higher conversions.",
-    image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/Phone.png",
+    image: "/Phone.png",
     buttonLink: "/contacts",
-    backgroundImageUrl: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/oe1.png",
+    backgroundImageUrl: "/oe1.png",
     altText: "Smartphone displaying enhanced CRO optimization strategy",
   },
   {
@@ -21,9 +21,9 @@ const cardData = [
     subtitle: "Growth",
     description:
       "Turn analytics into strategy. Our experts analyze customer behavior to refine your store’s performance, maximize engagement, and improve decision-making.",
-    image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/phonehand.png",
+    image: "/phonehand.png",
     buttonLink: "/contacts",
-    backgroundImageUrl: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/oe2.png",
+    backgroundImageUrl: "/oe2.png",
     altText: "Hand holding phone showing data-driven business growth analytics",
   },
   {
@@ -31,9 +31,9 @@ const cardData = [
     subtitle: "Profits",
     description:
       "Scale your business with precision. We optimize every aspect of your online store to strengthen customer relationships and increase revenue.",
-    image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/laptop.png",
+    image: "/laptop.png",
     buttonLink: "/contacts",
-    backgroundImageUrl: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/oe3.png",
+    backgroundImageUrl: "/oe3.png",
     altText: "Laptop screen visualizing eCommerce profit optimization dashboard",
   },
 ];
@@ -43,7 +43,7 @@ export default function OurExpertise() {
     <section
       className="-mt-6 rounded-2xl desktops:rounded-4xl bg-cover bg-center bg-no-repeat pb-12"
       style={{
-        backgroundImage: "url('https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/bg-oe.png')",
+        backgroundImage: "url('/bg-oe.png')",
       }}
     >
       <div className="w-full h-full flex flex-col items-center justify-center max-w-[1500px] min-[1024px]:w-[85%] mx-auto pt-12 desktops:pt-22 px-3">

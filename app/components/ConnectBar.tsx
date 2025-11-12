@@ -15,7 +15,7 @@ export default function ConnectBar() {
         {/* Left Image */}
         <div className="w-full desktops:w-[20%] flex justify-center">
         <Image
-            src="https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/teams.png"
+            src="/teams.png"
             alt="Bottom Decoration"
             width={200}
             height={50}

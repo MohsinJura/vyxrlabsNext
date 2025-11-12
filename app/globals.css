@@ -79,7 +79,7 @@
 .heading3 {  @apply text-[26px] font-bold leading-snug font-inter; }
 .desc     {  @apply text-[24px] leading-snug; }
 .desc1    {  @apply text-[22px] font-inter font-semibold}
-.ctabtn   {  @apply inline-flex items-center gap-3 bg-linear-to-b from-indigo-900 to-cblue rounded-lg px-9 py-3 text-white font-semibold transition-transform duration-200 hover:scale-102 hover:from-blue-400 hover:to-indigo-800 }
+.ctabtn   {  @apply inline-flex items-center gap-3 rounded-full px-9 py-3 text-white font-semibold font-inter transition-transform duration-300 hover:scale-102 hover:from-cblue hover:to-indigo-800 bg-linear-to-b from-sky-500 to-indigo-700 }
 .divider  {  @apply animate-flow w-full mx-auto h-[2px] border-none bg-linear-to-r from-rose-500 via-indigo-700 to-lime-500 }
 
 

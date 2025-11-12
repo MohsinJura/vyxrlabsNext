@@ -22,7 +22,7 @@ const footerHighlights = [
   },
 ];
 
-const Footer = () => {
+export default function Footer () {
   const offices = [
     {
       location: "500 Terry Francine Street, San Francisco",
@@ -145,7 +145,7 @@ const Footer = () => {
         {/* Logo + Tagline */}
         <div className="flex flex-col items-center gap-3 mt-6 text-center">
           <Image
-            src="https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/Logo.png"
+            src="/Logo.png"
             alt="VyxrLabs company logo"
             width={400}
             height={100}
@@ -161,4 +161,3 @@ const Footer = () => {
   );
 };
 
-export default Footer;
