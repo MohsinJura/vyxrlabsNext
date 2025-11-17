@@ -31,7 +31,7 @@ export default function Hero() {
             {/* ✅ Logo */}
             <div className="mb-4">
               <Image
-                src="/Logo.png"
+                src="/logo.png"
                 alt="VyxrLabs Logo"
                 width={300}
                 height={100}
