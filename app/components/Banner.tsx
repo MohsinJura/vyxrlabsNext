@@ -10,6 +10,7 @@ const logos: string[] = [
 ];
 
 interface BannerProps {
+  
   bgImage: string;
   breadcrumb?: string;
   logo?: string;
