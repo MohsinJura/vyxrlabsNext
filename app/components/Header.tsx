@@ -29,7 +29,7 @@ export default function Header() {
         { name: "Conversion Optimization", path: "/service/co" },
       ],
     },
-    { name: "About Us", path: "/abouts" },
+    { name: "About Us", path: "/Aboutus" },
     {
       name: "Home",
       path: "/",
