@@ -21,7 +21,7 @@ export default function Header() {
   const navItems: NavItem[] = [
     {
       name: "Services",
-      path: "/services",
+      path: "/Service",
       dropdown: [
         { name: "Web Design & Development", path: "/service/web" },
         { name: "Business Automation", path: "/service/ba" },
@@ -29,7 +29,7 @@ export default function Header() {
         { name: "Conversion Optimization", path: "/service/co" },
       ],
     },
-    { name: "About Us", path: "/abouts" },
+    { name: "About Us", path: "/Aboutus" },
     {
       name: "Home",
       path: "/",
