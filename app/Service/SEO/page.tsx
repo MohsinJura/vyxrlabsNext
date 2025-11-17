@@ -6,11 +6,12 @@ import FAQ from "@/app/components/FAQs";
 import LetWorldKnow from "@/app/components/LetWorldKnow";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import TestimonialSection from "@/app/components/Testimonial";
+import Sbanner from "@/app/components/Sbanner"
 
 const SEO: React.FC = () => {
   return (
     <main>
-      <Banner 
+      <Sbanner 
         bgImage={'https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/bgseo.png'} 
         logo='https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/Logo.png' 
         breadcrumb={'Search Engine Optimization'} 

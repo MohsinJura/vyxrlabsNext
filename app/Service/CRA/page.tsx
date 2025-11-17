@@ -6,11 +6,12 @@ import EveryClickMatters from "@/app/components/EveryClickMatters";
 import FAQ from "@/app/components/FAQs";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import TestimonialSection from "@/app/components/Testimonial";
+import Sbanner from "@/app/components/Sbanner"
 
 const CRA: React.FC = () => {
   return (
     <main>
-      <Banner
+      <Sbanner
           bgImage="https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/bgba.png"
           logo="https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/Logo.png"
           breadcrumb="Buisness Automation"

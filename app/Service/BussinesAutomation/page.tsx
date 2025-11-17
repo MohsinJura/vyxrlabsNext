@@ -6,11 +6,12 @@ import FAQ from "@/app/components/FAQs";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import OurAutomationSolutions from "@/app/components/OurAutomationSolutions";
 import TestimonialSection from "@/app/components/Testimonial";
+import Sbanner from "@/app/components/Sbanner"
 
 const ServicesPage: React.FC = () => {
   return (
     <main>
-      <Banner
+      <Sbanner
         bgImage={
           "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/bgba.png"
         }

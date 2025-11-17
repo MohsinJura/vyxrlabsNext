@@ -6,12 +6,13 @@ import FAQ from "@/app/components/FAQs";
 import InnovativeTransformation from "@/app/components/InnovativeTransformation";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import TestimonialSection from "@/app/components/Testimonial";
+import Sbanner from "@/app/components/Sbanner"
 
 const WebDesign: React.FC = () => {
   return (
     <main>
-      <Banner
-        bgImage={
+      <Sbanner 
+      bgImage={
           "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/bgweb.png"
         }
         logo="https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/Logo.png"
