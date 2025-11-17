@@ -41,7 +41,7 @@ export default function Footer () {
   return (
     <footer
       className="
-        bg-[url('/bgfooter.png')] bg-center bg-cover text-white overflow-hidden
+        bg-[url('/bgfooter.png')] bg-center bg-cover text-white bg-black overflow-hidden
         rounded-4xl max-[768px]:rounded-t-2xl rounded-b-none
         py-10 mobiles:px-6 desktops:px-16
       "
@@ -145,7 +145,7 @@ export default function Footer () {
         {/* Logo + Tagline */}
         <div className="flex flex-col items-center gap-3 mt-6 text-center">
           <Image
-            src="/Logo.png"
+            src="/logo.png"
             alt="VyxrLabs company logo"
             width={400}
             height={100}

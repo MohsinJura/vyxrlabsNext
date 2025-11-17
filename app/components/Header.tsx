@@ -37,8 +37,8 @@ export default function Header() {
       iconHover: "/logoo.png",
       onlyIcon: true,
     },
-    { name: "Contact Us", path: "/contacts" },
-    { name: "Careers", path: "/careers" },
+    { name: "Contact Us", path: "/ContactUs" },
+    { name: "Careers", path: "/Career" },
   ]
 
   const pathname = usePathname()
