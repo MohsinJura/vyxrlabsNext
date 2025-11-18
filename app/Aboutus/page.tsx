@@ -5,6 +5,7 @@ import ConsultationForm from "../components/ConsultationForm";
 import FAQ from "../components/FAQs";
 import NewsletterSection from "../components/NewsletterSection";
 import OurTeam from "../components/OurTeam";
+import StartWithUs from "../components/StartWithUs";
 import TestimonialSection from "../components/Testimonial";
 import WhoWeAre from "../components/WhoWeAre";
 
@@ -22,6 +23,7 @@ const AboutusPage: React.FC = () => {
       />
       <WhoWeAre />
       <OurTeam />
+      <StartWithUs />
       <ChooseUs />
       <TestimonialSection />
       <FAQ />

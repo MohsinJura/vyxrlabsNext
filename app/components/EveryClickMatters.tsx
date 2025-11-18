@@ -66,7 +66,6 @@ const EveryClickMatters = () => {
             />
           </div>
         </div>
-
         <ConnectBar />
       </div>
     </section>

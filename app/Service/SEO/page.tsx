@@ -6,7 +6,8 @@ import FAQ from "@/app/components/FAQs";
 import LetWorldKnow from "@/app/components/LetWorldKnow";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import TestimonialSection from "@/app/components/Testimonial";
-import Sbanner from "@/app/components/Sbanner"
+import Sbanner from "@/app/components/Sbanner";
+import StartWithUs from "@/app/components/StartWithUs";
 
 const SEO: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const SEO: React.FC = () => {
       />
       <div className='bg-skygreen md:rounded-tl-4xl md:rounded-tr-4xl'>
       <LetWorldKnow />
+      <StartWithUs />
       </div>
       <ChooseUs />
       <TestimonialSection />

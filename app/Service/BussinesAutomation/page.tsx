@@ -6,7 +6,8 @@ import FAQ from "@/app/components/FAQs";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import OurAutomationSolutions from "@/app/components/OurAutomationSolutions";
 import TestimonialSection from "@/app/components/Testimonial";
-import Sbanner from "@/app/components/Sbanner"
+import Sbanner from "@/app/components/Sbanner";
+import StartWithUs from "@/app/components/StartWithUs";
 
 const ServicesPage: React.FC = () => {
   return (
@@ -27,6 +28,7 @@ const ServicesPage: React.FC = () => {
       />
       <div className='bg-skygreen md:rounded-tl-4xl md:rounded-tr-4xl'>
       <OurAutomationSolutions />
+      <StartWithUs />
       </div>
       <ChooseUs />
       <TestimonialSection />

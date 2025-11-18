@@ -6,7 +6,8 @@ import EveryClickMatters from "@/app/components/EveryClickMatters";
 import FAQ from "@/app/components/FAQs";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import TestimonialSection from "@/app/components/Testimonial";
-import Sbanner from "@/app/components/Sbanner"
+import Sbanner from "@/app/components/Sbanner";
+import StartWithUs from "@/app/components/StartWithUs";
 
 const CRA: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const CRA: React.FC = () => {
         />
       <div className='bg-skygreen md:rounded-tl-4xl md:rounded-tr-4xl'>  
       <EveryClickMatters />
+      <StartWithUs />
       </div>
       <ChooseUs />
       <TestimonialSection />

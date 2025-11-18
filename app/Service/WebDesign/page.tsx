@@ -6,7 +6,8 @@ import FAQ from "@/app/components/FAQs";
 import InnovativeTransformation from "@/app/components/InnovativeTransformation";
 import NewsletterSection from "@/app/components/NewsletterSection";
 import TestimonialSection from "@/app/components/Testimonial";
-import Sbanner from "@/app/components/Sbanner"
+import Sbanner from "@/app/components/Sbanner";
+import StartWithUs from "@/app/components/StartWithUs";
 
 const WebDesign: React.FC = () => {
   return (
@@ -27,6 +28,7 @@ const WebDesign: React.FC = () => {
       />
       <div className='bg-skygreen md:rounded-tl-4xl md:rounded-tr-4xl'>
       <InnovativeTransformation />
+      <StartWithUs />
       </div>
       <ChooseUs />
       <TestimonialSection />
