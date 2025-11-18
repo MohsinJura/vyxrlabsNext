@@ -14,8 +14,8 @@ export default function NewsletterSection() {
   };
 
   return (
-    <section className="py-10 md:py-20">
-      <div className="max-w-7xl mx-auto flex flex-col gap-8 px-6 text-center">
+    <section className="bg-white">
+      <div className="max-w-7xl mx-auto flex flex-col gap-8 px-6 py-10 md:py-20 text-center">
         {/* Intro Text */}
         <p className="font-inter md:text-2xl max-w-5xl mx-auto text-gray-700">
           Leave outdated enterprises behind — step into a smoother, smarter future.{" "}

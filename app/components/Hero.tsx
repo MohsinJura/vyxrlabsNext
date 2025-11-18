@@ -56,9 +56,9 @@ export default function Hero() {
 
             {/* ✅ Heading */}
             <h1 className="text-lg md:text-4xl font-bold font-montserrat mb-3 leading-snug">
-              Unleash your brand’s <em>potential</em>
+              Unleash your brand’s <em style={{color: "white"}}>potential</em>
               <br />
-              and get results that <em>matter</em>
+              and get results that <em style={{color: "white"}}>matter</em>
             </h1>
 
             {/* ✅ Platform Icons */}

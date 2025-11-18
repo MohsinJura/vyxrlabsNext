@@ -8,6 +8,7 @@ import NewsletterSection from "../components/NewsletterSection"
 import Banner from "../components/Banner"
 import ContactForm from "../components/ContactForm"
 import ConnectUs from "../components/ConnectUs"
+import { url } from "inspector"
 
 export default function HomePage() {
   return (
