@@ -6,9 +6,9 @@ import { BookText } from "lucide-react";
 
 export default function ContactForm() {
   return (
-    <section className="  bg-[#C7CEC8] px-4">
-      <div className="relative z-20 -mt-80">
-        <div className=" max-w-7xl md:w-2/3 mx-auto bg-white rounded-2xl py-8 px-4 md:p-16 text-center">
+    <section>
+      <div className="relative z-2 desktop:-mt-[300px] -mt-[350px] pt-5 pb-32 text-center ">
+        <div className="max-w-7xl w-[95%] desktop:w-[80%] mx-auto bg-white border border-stone-300 rounded-2xl py-8 px-4 md:p-16 text-center">
           {/* Top Heading */}
           <div className="text-center leading-snug mb-6">
               <p className="badge mb-3">Contact Info</p>

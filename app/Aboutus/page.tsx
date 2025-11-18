@@ -1,12 +1,12 @@
 // app/services/page.tsx
 import Banner from "../components/Banner";
-import ChooseUs from "../components/ChooseUs";
 import ConsultationForm from "../components/ConsultationForm";
 import FAQ from "../components/FAQs";
 import NewsletterSection from "../components/NewsletterSection";
 import OurTeam from "../components/OurTeam";
-import TestimonialSection from "../components/Testimonial";
 import WhoWeAre from "../components/WhoWeAre";
+import WhyChooseUs from "../components/ChooseUs"
+import Testimonial from "../components/Testimonial"
 
 const AboutusPage: React.FC = () => {
   return (
@@ -22,8 +22,10 @@ const AboutusPage: React.FC = () => {
       />
       <WhoWeAre />
       <OurTeam />
-      <ChooseUs />
-      <TestimonialSection />
+      <div className="bg-[url('/whyus.png')] bg-cover bg-center bg-no-repeat">
+        <WhyChooseUs />
+        <Testimonial />
+      </div>
       <FAQ />
       <ConsultationForm />
       <NewsletterSection />

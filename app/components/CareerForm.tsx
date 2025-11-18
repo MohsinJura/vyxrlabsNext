@@ -12,20 +12,20 @@ export default function CareerForm({ title, head1, head2 }: CareerFormProps) {
   return (
     <section className="relative z-2 -mt-[270px] max-md:-mt-[180px]">
       <div className="pt-5 pb-32 text-center">
-          {/* Top Heading */}
-          <div className="w-7xl mx-auto text-center leading-snug mb-20">
-            <p className="badge">{title}</p>
-            <p className="heading1 my-3">
-              {head1} <em>{head2}</em>
-            </p>
-          </div>
-
         <form
           aria-label="Career form"
           className="w-[90%] md:w-2/3 max-w-[1200px] mx-auto bg-[#EDF7FF] rounded-2xl shadow-lg p-8 md:p-16"
           action="https://formspree.io/f/mrblzyap"
           method="POST"
         >
+          {/* Top Heading */}
+          <div className="text-center leading-snug mb-20">
+            <p className="badge">{title}</p>
+            <p className="heading1 my-3">
+              {head1} <em>{head2}</em>
+            </p>
+          </div>
+
           {/* Input Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             {/* Full Name */}

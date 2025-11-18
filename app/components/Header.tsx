@@ -185,7 +185,7 @@ export default function Header() {
         {/* Prevent click on sidebar from closing the menu */}
         <div className="absolute right-0 top-0 h-full w-full bg-gradient-to-b from-slate-900 to-black text-white shadow-2xl" onClick={(e) => e.stopPropagation()}>
           <div className="flex justify-between items-center p-4 border-b border-gray-700">
-            <span className="text-xl text-cblue/70 font-semibold">Menu</span>
+            {/* <span className="text-xl text-fuchsia-600 animate-flow font-semibold">Menu</span> */}
             <button onClick={() => setMobileMenuOpen(false)}>
               <FiX className="w-6 h-6 hover:text-cblue" />
             </button>
