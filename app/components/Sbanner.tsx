@@ -51,12 +51,12 @@ const Banner: React.FC<BannerProps> = ({
         <h1 className="text-[1.4rem] lg:text-[3rem] font-bold font-montserrat mt-[10px] leading-tight text-center">
           <span>
             {title1}
-            <em>{title2}</em>
+            <em style={{color: "white"}}>{title2}</em>
           </span>
           <br />
           <span>
             {title3}
-            <em>{title4}</em>
+            <em style={{color: "white"}}>{title4}</em>
           </span>
         </h1>
 

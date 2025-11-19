@@ -51,7 +51,7 @@ export default function Banner({
         {/* Title */}
         {title && (
           <h1 className="text-3xl md:text-4xl font-bold font-montserrat mt-4">
-            {title} <em>Vyxrlabs</em>
+            {title} <em style={{color: "white"}}>Vyxrlabs</em>
           </h1>
         )}
 
