@@ -12,7 +12,7 @@ const cardData = [
     description:
       "We transform visitors into loyal customers. Using data-driven optimization techniques, we create seamless shopping experiences that drive higher conversions.",
     image: "/Phone.png",
-    buttonLink: "/contacts",
+    buttonLink: "/ContactUs",
     backgroundImageUrl: "/oe1.png",
     altText: "Smartphone displaying enhanced CRO optimization strategy",
   },
@@ -22,7 +22,7 @@ const cardData = [
     description:
       "Turn analytics into strategy. Our experts analyze customer behavior to refine your store’s performance, maximize engagement, and improve decision-making.",
     image: "/phonehand.png",
-    buttonLink: "/contacts",
+    buttonLink: "ContactUs",
     backgroundImageUrl: "/oe2.png",
     altText: "Hand holding phone showing data-driven business growth analytics",
   },
@@ -32,7 +32,7 @@ const cardData = [
     description:
       "Scale your business with precision. We optimize every aspect of your online store to strengthen customer relationships and increase revenue.",
     image: "/laptop.png",
-    buttonLink: "/contacts",
+    buttonLink: "ContactUs",
     backgroundImageUrl: "/oe3.png",
     altText: "Laptop screen visualizing eCommerce profit optimization dashboard",
   },

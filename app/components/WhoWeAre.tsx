@@ -64,7 +64,7 @@ const WhoWeAre = () => {
           </p>
 
           <Link
-            href="/contacts"
+            href="/ContactUs"
             className="ctabtn mb-5"
           >
             <Image

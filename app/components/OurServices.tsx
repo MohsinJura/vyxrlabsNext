@@ -17,34 +17,34 @@ export default function OurServices() {
       title: "Web Design and Development",
       description:
         "We craft custom Shopify stores tailored to your brand – designed for high-performance, premium user experiences that drive conversions.",
-      urlink: "/service/web",
+      urlink: "/Service/WebDesign",
       image:
         "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os1-1.png",
       projects: [
-        { id: 1, image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os1_1.png", plink: "/service/web" },
-        { id: 2, image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os1_2.png", plink: "/service/web" },
-        { id: 3, image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os1_3.png", plink: "/service/web" },
+        { id: 1, image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os1_1.png", plink: "/Service/WebDesign" },
+        { id: 2, image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os1_2.png", plink: "//Service/WebDesign" },
+        { id: 3, image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os1_3.png", plink: "//Service/WebDesign" },
       ],
     },
     {
       title: "Search Engine Optimization",
       description:
         "Implementing advanced Shopify SEO strategies to boost your store's visibility and attract the right audience.",
-      urlink: "/service/seo",
+      urlink: "/Service/SEO",
       image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os2.png",
     },
     {
       title: "Business Automation",
       description:
         "Optimize operations with AI automation—streamline workflows, cut manual tasks, and boost efficiency.",
-      urlink: "/service/ba",
+      urlink: "/Service/BussinesAutomation",
       image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os3.png",
     },
     {
       title: "Conversion Optimization",
       description:
         "Boost conversion rates through data-driven strategies for sustainable growth.",
-      urlink: "/service/co",
+      urlink: "/Service/CRA",
       image: "https://cdn.jsdelivr.net/gh/VyxrLab/media-storage/vyxreact/images/os4.png",
     },
   ];

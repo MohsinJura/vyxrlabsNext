@@ -30,7 +30,7 @@ export default function ConnectBar() {
 
         {/* Button */}
         <Link
-          href="/contacts"
+          href="/ContactUs"
           className="desktop:w-[5%] flex justify-between items-center"
         >
           <button className="py-3 px-12 md:p-4 hover:bg-cblue transform bg-gradient-to-b from-indigo-700 to-blue-400 hover:scale-102 rounded-full">

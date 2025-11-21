@@ -85,9 +85,9 @@ export default function Footer () {
             <p className="font-montserrat font-bold mb-3 text-lg">Important Links</p>
             <div className="flex flex-col gap-1 text-slate-200 font-light">
               <Link href="/" className="hover:text-cblue">Home</Link>
-              <Link href="/services" className="hover:text-cblue">Services</Link>
-              <Link href="/contacts" className="hover:text-cblue">Contact Us</Link>
-              <Link href="/abouts" className="hover:text-cblue">About Us</Link>
+              <Link href="/Service" className="hover:text-cblue">Services</Link>
+              <Link href="/ContactUs" className="hover:text-cblue">Contact Us</Link>
+              <Link href="/Aboutus" className="hover:text-cblue">About Us</Link>
               <Link href="/blogs" className="hover:text-cblue">Blogs</Link>
             </div>
           </div>
@@ -96,10 +96,10 @@ export default function Footer () {
           <div>
             <p className="font-montserrat font-bold mb-3 text-lg">Services</p>
             <div className="flex flex-col gap-2 text-slate-200 font-light">
-              <Link href="/service/web" className="hover:text-cblue">Web Design & Dev.</Link>
-              <Link href="/service/seo" className="hover:text-cblue">SEO Optimization</Link>
-              <Link href="/service/ba" className="hover:text-cblue">Business Automation</Link>
-              <Link href="/service/co" className="hover:text-cblue">Conversion Optimization</Link>
+              <Link href="/Service/WebDesign" className="hover:text-cblue">Web Design & Dev.</Link>
+              <Link href="/Service/SEO" className="hover:text-cblue">SEO Optimization</Link>
+              <Link href="/Service/BussinesAutomation" className="hover:text-cblue">Business Automation</Link>
+              <Link href="/Service/CRA" className="hover:text-cblue">Conversion Optimization</Link>
             </div>
           </div>
 

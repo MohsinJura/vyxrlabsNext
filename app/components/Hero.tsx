@@ -111,7 +111,7 @@ export default function Hero() {
 
             {/* ✅ CTA Button */}
             <Link
-              href="/contacts"
+              href="/ContactUs"
               className="flex items-center gap-2 ctabtn"
             >
               <Image
